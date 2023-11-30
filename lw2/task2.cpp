@@ -128,8 +128,9 @@ int main() {
     cout << "Введите имя файла" << endl;
     string inputFileName;
     getline(cin, inputFileName);
-    ifstream inFile(inputFileName);
+    cout << inputFileName;
     cout << endl;
+    ifstream inFile(inputFileName);
 
     if (!inFile.is_open()) {
         cout << "Ошибка в открытии файла" << endl;
