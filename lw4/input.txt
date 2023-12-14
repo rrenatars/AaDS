@@ -1,0 +1,9 @@
+Samuel: 4 + + ; 1 + +.
+Olivia: 2 - +; 3 + -.
+Jack: 3 + + ; 2 - +.
+Joseph: 2 + - ; 1 + +.
+Ava: 1 + + ; 1 + +.
+Harry: 1 + + ; 2 - -.
+Amelia: 3 - +; 2 + +.
+Alfie: 3 + + ; 1 - +.
+

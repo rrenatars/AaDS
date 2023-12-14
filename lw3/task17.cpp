@@ -14,7 +14,6 @@
 #include <map>
 #include <chrono>
 #include <iomanip>
-#include <Windows.h>
 
 using namespace std;
 
@@ -168,8 +167,7 @@ void deleteRepeatFiles(Tree *root) {
 }
 
 int main() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    setlocale(LC_ALL, "Russian");
 
     Tree *root = nullptr;
 
